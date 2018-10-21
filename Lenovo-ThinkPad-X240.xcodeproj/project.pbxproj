@@ -6,10 +6,23 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		DFE3AFBD217D215200167A93 /* hotpatch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hotpatch; sourceTree = "<group>"; };
+		DFE3AFBE217D215200167A93 /* kexts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = kexts; sourceTree = "<group>"; };
+		DFE3AFBF217D215200167A93 /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audio; sourceTree = "<group>"; };
+		DFE3AFC0217D215200167A93 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		DFE3AFC1217D215200167A93 /* SSDT-X240.aml */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SSDT-X240.aml"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		DFE3AFB6217D203600167A93 = {
 			isa = PBXGroup;
 			children = (
+				DFE3AFBF217D215200167A93 /* Audio */,
+				DFE3AFC0217D215200167A93 /* config.plist */,
+				DFE3AFBD217D215200167A93 /* hotpatch */,
+				DFE3AFBE217D215200167A93 /* kexts */,
+				DFE3AFC1217D215200167A93 /* SSDT-X240.aml */,
 			);
 			sourceTree = "<group>";
 		};
