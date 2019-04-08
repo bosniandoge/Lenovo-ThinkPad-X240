@@ -2,7 +2,7 @@
 // Works also on Lenovo Thinkpad: L450/T440/T440S/T440P/T540P/T450/X240... etc.
 // Must use AlcPlugFix to have all working Inputs & Outputs ; Wake & Sleep.
 
-// This data provided by @Sniki.
+// This data provided by @Sniki. (https://github.com/Snikii/Lenovo-ThinkPad-X240)
 // See here: https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-l440.232589/
 
 #ifndef NO_DEFINITIONBLOCK
@@ -36,6 +36,7 @@ DefinitionBlock ("", "SSDT", 1, "Sniki", "_ALC3232", 0)
                 },
             },
             "Perform Reset", ">y",
+            "Perform Reset on External Wake", ">y",
             "Send Delay", 10,
             "Sleep Nodes", ">n",
         },
